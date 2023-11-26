@@ -6,13 +6,13 @@ step 1) clone this repository
 
 step 2) create your own google maps api
 
-step 3) in the maps.py file you can see i have created a environment variable called googleapikey so you can either create a environment variable too or hardcode the key
+step 3) in the main.py u need to place your own api key
 
-step 4) next in the index.html file u have to copy paste ur own api key inside the "{insert your apikey here}" that i have specified inside src. there are two instances where you have to change
+step 4) next in the main.py file u have to copy paste ur own api key inside the "{YOUR API KEY}" that i have specified inside src. there are three instances where you have to change
 
 it looks like:
 
-<script src="https://maps.googleapis.com/maps/api/js?key={insertyourapikeyhere}&libraries=places&callback=initAutocomplete" async defer></script>
-(note that u can use environment variables for this too and i will soon update the code using environment variables so that no hard coding is needed)
+
+easy way to find: press ctrl + f anf find YOUR API KEY and replace all instances with our own api key
 
 step5) now the code is ready to run. you can run the app.py file
