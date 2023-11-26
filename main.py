@@ -377,7 +377,7 @@ def calculate_distance(lat1, lon1, lat2, lon2):
 def get_place_coordinates(place):
     
     url = "https://maps.googleapis.com/maps/api/geocode/json"
-    params = {"address": place, "key": "AIzaSyCsJp9BP-TpdqL2xrIOwuK-oRdX_rZn2gE"}  ####
+    params = {"address": place, "key": YOUR API KEYE"}  ####
     response = requests.get(url, params=params)
     data = response.json()
 
@@ -397,7 +397,7 @@ def search_category(latitude, longitude, category, radius):
         "location": f"{latitude},{longitude}",
         "radius": radius,
         "type": category,
-        "key": "AIzaSyCsJp9BP-TpdqL2xrIOwuK-oRdX_rZn2gE" 
+        "key": YOUR API KEYE" 
     }
     response = requests.get(url, params=params)
     data = response.json()
