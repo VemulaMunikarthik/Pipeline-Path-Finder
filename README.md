@@ -15,4 +15,4 @@ it looks like:
 
 easy way to find: press ctrl + f anf find YOUR API KEY and replace all instances with our own api key
 
-step5) now the code is ready to run. you can run the app.py file
+step5) now the code is ready to run. you can run the main.py file
